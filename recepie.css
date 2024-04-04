@@ -1,0 +1,26 @@
+ul{
+    padding: 0 0 0 1.6em;
+}
+ul li {
+    list-style: none;
+  }
+  
+ul li::before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('images/iceddrink.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  a{
+    text-decoration: none;
+    border: 2px solid grey;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+a:visited{
+    color: green;
+}
